@@ -1,7 +1,7 @@
 # eslint-config-recats
 
 [![npm](https://img.shields.io/npm/v/@recats/eslint-config.svg)](https://www.npmjs.com/package/@recats/eslint-config)
-[![Greenkeeper badge](https://badges.greenkeeper.io/recats/eslint-config.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/recats/eslint-config-recats.svg)](https://greenkeeper.io/)
 ![Recats Digital](https://img.shields.io/badge/recats-digital-1abc9c.svg?style=flat)
 
 Plugins and configs used:
