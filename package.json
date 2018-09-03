@@ -1,0 +1,31 @@
+{
+  "name": "@reactas/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint preset extending Airbnb, Flow and Jest",
+  "main": "index.js",
+  "repository": "git@github.com:reactas/eslint-config-reactas.git",
+  "author": "Strelkov Dmitry <stkdmitry@ya.ru>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "flow",
+    "jest"
+  ],
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
