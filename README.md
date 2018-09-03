@@ -1,5 +1,9 @@
 # eslint-config-recats
 
+[![npm](https://img.shields.io/npm/v/@recats/eslint-config.svg)](https://www.npmjs.com/package/@recats/eslint-config)
+[![Greenkeeper badge](https://badges.greenkeeper.io/recats/eslint-config.svg)](https://greenkeeper.io/)
+![Recats Digital](https://img.shields.io/badge/recats-digital-1abc9c.svg?style=flat)
+
 Plugins and configs used:
 * [eslint-config-airbnb](https://yarnpkg.com/en/package/eslint-config-airbnb)
 * [eslint-plugin-flowtype](https://yarnpkg.com/en/package/eslint-plugin-flowtype)
@@ -18,7 +22,7 @@ Additionally, it sets these environments:
 
 ## Installation
 ```
-yarn add eslint @recats/eslint-config --dev
+yarn add eslint @recats/eslint-config eslint --dev
 ```
 
 ## Usage
@@ -26,7 +30,7 @@ Add to your eslint config `.eslintrc`:
 
 ```json
 {
-  "extends": "@recats"
+  "extends": "@recats/eslint-config"
 }
 ```
 
@@ -34,7 +38,7 @@ Add to your eslint config `.eslintrc`:
 
 ```json
 {
-  "extends": "@recats",
+  "extends": "@recats/eslint-config",
   "rules": {
     ...
   }
